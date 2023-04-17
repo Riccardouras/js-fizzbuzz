@@ -6,7 +6,8 @@ for (let i = 1; i < 101; i++) {
     else if (i % 3 === 0)  containerr.innerHTML += `<div class="box">Fizz</div>`;
     else if (i % 5 === 0) containerr.innerHTML += `<div class="box">Buzz</div>`;
     else  containerr.innerHTML += `<div class="box">${i}</div>`;
-    const nuovoElementoInLista = document.createElement('li');
-    nuovoElementoInLista.append(i); 
-    ul.append(nuovoElementoInLista); 
+   
 }
+const nuovoElementoInLista = document.createElement('li');
+nuovoElementoInLista.append(i); 
+ul.append(nuovoElementoInLista); 
