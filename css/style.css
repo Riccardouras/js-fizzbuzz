@@ -20,3 +20,30 @@ body {
     color: #083B4C;
     text-align: center;
 }
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
