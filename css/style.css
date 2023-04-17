@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+body {
+    background-color: #222;
+    font-family: sans-serif;
+    color: #083B4C;
+    text-align: center;
+}
